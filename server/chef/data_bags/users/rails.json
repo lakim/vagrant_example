@@ -1,0 +1,5 @@
+{
+  "id"          : "rails",
+  "ssh_keys"    : [ "xxx" ],
+  "password"    : "xxx"
+}

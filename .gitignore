@@ -1,0 +1,6 @@
+.DS_Store
+.vagrant
+cookbooks
+tmp
+server/veewee/iso
+server/veewee/*.box

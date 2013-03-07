@@ -1,0 +1,29 @@
+#!/usr/bin/env ruby
+#^syntax detection
+
+site 'http://community.opscode.com/api/v1'
+
+# cookbook 'chef-client'
+
+# cookbook 'apache2', '>= 1.0.0'
+
+# cookbook 'rvm',
+#   :git => 'https://github.com/fnichol/chef-rvm'
+
+# cookbook 'postgresql',
+#   :git => 'https://github.com/findsyou/cookbooks',
+#   :ref => 'postgresql-improvements'
+cookbook 'user'
+cookbook 'apt', git: 'https://github.com/fnichol/chef-apt'
+cookbook 'build-essential'
+cookbook 'git', git: 'https://github.com/fnichol/chef-git.git'
+cookbook 'ruby_build', :git => 'git://github.com/fnichol/chef-ruby_build.git'
+cookbook 'rbenv', git: 'https://github.com/fnichol/chef-rbenv.git'
+cookbook 'mysql'
+cookbook 'sphinx', git: 'https://github.com/lakim/sphinx-cookbook.git'
+cookbook 'imagemagick'
+cookbook 'libqt4', git: 'https://github.com/lakim/chef-libqt4.git'
+cookbook 'libevent', git: 'https://github.com/lakim/chef-libevent.git'
+cookbook 'tmux-for-iterm2', git: 'https://github.com/lakim/chef-tmux-for-iterm2.git'
+cookbook 'xvfb', git: 'https://github.com/lakim/chef-xvfb.git'
+cookbook 'firefox', git: 'https://github.com/lakim/chef-firefox.git'

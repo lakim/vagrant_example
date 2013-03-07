@@ -1,0 +1,108 @@
+SITE
+  remote: http://community.opscode.com/api/v1
+  specs:
+    build-essential (1.1.0)
+    chef_handler (1.0.6)
+    imagemagick (0.2.2)
+    mysql (1.2.6)
+      openssl (>= 0.0.0)
+      windows (>= 0.0.0)
+    openssl (1.0.0)
+    postgresql (0.99.4)
+      openssl (>= 0.0.0)
+    runit (0.15.0)
+    user (0.2.12)
+    windows (1.3.2)
+      chef_handler (>= 0.0.0)
+
+GIT
+  remote: git://github.com/fnichol/chef-ruby_build.git
+  ref: master
+  sha: c38d86966694b85db291625b245722208b40b61e
+  specs:
+    ruby_build (0.6.3)
+
+GIT
+  remote: https://github.com/fnichol/chef-apt
+  ref: master
+  sha: cb998dfdeffbcbb6805527b046b411206d6c77d6
+  specs:
+    apt (1.2.0)
+
+GIT
+  remote: https://github.com/fnichol/chef-git.git
+  ref: master
+  sha: 6c19cbefcdad5ec0f62a64dae1f656d660698ea3
+  specs:
+    git (0.9.0)
+      runit (>= 0.0.0)
+
+GIT
+  remote: https://github.com/fnichol/chef-rbenv.git
+  ref: master
+  sha: c4dbcc85e3d6dae0eb8c9dc507d5ee915b7ad480
+  specs:
+    rbenv (0.6.11)
+
+GIT
+  remote: https://github.com/lakim/chef-firefox.git
+  ref: master
+  sha: 7c77aac147e921648c2030795b81ec3a1145b490
+  specs:
+    firefox (0.0.1)
+
+GIT
+  remote: https://github.com/lakim/chef-libevent.git
+  ref: master
+  sha: e8036eece25d3f40cee2b5bc5f016c41aee421a7
+  specs:
+    libevent (0.0.1)
+
+GIT
+  remote: https://github.com/lakim/chef-libqt4.git
+  ref: master
+  sha: 01f29b470c0841898da16f99726538e010a836f5
+  specs:
+    libqt4 (0.1.0)
+
+GIT
+  remote: https://github.com/lakim/chef-tmux-for-iterm2.git
+  ref: master
+  sha: 2efa3f24315a434d9d28df8a28ca6f1b3ee9035b
+  specs:
+    tmux-for-iterm2 (0.0.1)
+      libevent (>= 0.0.0)
+
+GIT
+  remote: https://github.com/lakim/chef-xvfb.git
+  ref: master
+  sha: fcbdb1d2ed0403b4e996bd066cd77e37d3784bd0
+  specs:
+    xvfb (0.0.1)
+
+GIT
+  remote: https://github.com/lakim/sphinx-cookbook.git
+  ref: master
+  sha: c46e636b136375023a06ae593c2e8735ec4fecbd
+  specs:
+    sphinx (0.4.0)
+      build-essential (>= 0)
+      mysql (>= 0)
+      postgresql (>= 0)
+
+DEPENDENCIES
+  apt (>= 0)
+  build-essential (>= 0)
+  firefox (>= 0)
+  git (>= 0)
+  imagemagick (>= 0)
+  libevent (>= 0)
+  libqt4 (>= 0)
+  mysql (>= 0)
+  rbenv (>= 0)
+  ruby_build (>= 0)
+  sphinx (>= 0)
+  tmux-for-iterm2 (>= 0)
+  user (>= 0)
+  xvfb (>= 0)
+
